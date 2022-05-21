@@ -14,4 +14,11 @@ public class KafkaTopicConfig {
                 .name("expaw")
                 .build();
     }
+
+    @Bean
+    public NewTopic expawJsonTopic(){
+        return TopicBuilder
+                .name("expaw_json")
+                .build();
+    }
 }
